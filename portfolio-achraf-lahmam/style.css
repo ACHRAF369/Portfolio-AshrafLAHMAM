@@ -1,20 +1,18 @@
 body{
-    margin: 0;
-    padding: à;
+   width: 100%;
+   height: 100vh;
+   margin: 0 auto;
 }
 .grndiv{
    padding: 2%;
    display: flex;
-   justify-content: space-around;
-   
+   justify-content: space-around; 
 }
-
 #main{
     width:100%;
     height: 100vh;
     background-image:url(pexels-photo-3597060.jpg);
     background-size: cover; 
-
 }
  .child1 {
     padding:%;
@@ -23,11 +21,7 @@ body{
     display: inline;
     font-family:monospace;
     font-size: 140%;
-    
-    
 }
-
-
 .grndiv .child0{
     padding:3%;
     color: beige;
@@ -59,14 +53,9 @@ button{
     margin-top: 11%;
     font-size: 180%;
     color: #ffffff;
-    font-family: cursive;
-    
-    
-}
-
+    font-family: cursive;    
 }
 .ABOUT-ME{
-    
     display: flex;
     justify-content: center;
     color: #583535;
@@ -74,65 +63,340 @@ button{
     font-family: sans-serif;
     font-weight: bold;
     font-size: 260%;
-    
-  
 }
-
-.de-ABOUT{ 
-    margin: 2%;
-    max-width: 100%;
-    width: 50%;
-   height: 29rem;
-  
-}
-.line2{
-    margin-top: 3%;
-}
-.line1{
-    margin-top: 3%;
-}
-.PPEWE{
+section{
+width: 100%;
+padding: 3rem;
 display: flex;
-justify-content: space-around;
-width: 90%;
-
+justify-content: space-between;
 }
-.PEWE p{
-color: rgb(192, 192, 192);
-font-family:inherit;
-
+.prof-img{
+   display: grid;
+   grid-template-columns: 40% 40%;
+   justify-content: space-between;
 }
-.perhero .PPEWE .PEWE H4{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+.prof-text p{
+    font-family:sans-serif;
+    color:rgb(167, 175, 175);
 }
-.perhero .PPEWE .PEWE p{
+.prof-text h3{
+    font-weight: 7px;
     font-family:cursive;
-    font-size: 80%;
 }
- .de-ABOUT h4{
-    font-family:cursive;
-    margin-top: 5%;
-    font-size: 150%;
+article{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+#EDUCATION{
+    display: flex;
+    justify-content: space-around;
+    }
+    .chilEDUCAT{
+        width: 17rem;
+        font-size: 18px;
+    }
+    nav{
+        background-color: rgb(245, 244, 244);
+        height: 60%;
+    }
+    .EDUCATION2{
+        display: flex;
+        justify-content: center;
+        color: #583535;
+        margin-top: 4%;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 260%;
+        align-items: center;
+    }
+    .line5{
+        margin-top: 2px;
+    }
+    .line{
+        margin-top:2rem;
+    }
+li{
+color: rgb(202, 78, 109);
+font-size: 20px;
+}
+.Two-years{
+    font-family:sans-serif;
+    color:gray;
+}
+.chilEDUCAT p{
+color: gray;
+font-family:sans-serif;
+}
+.chilEDUCAT h5{
+    font-family:sans-serif;
 }
 
-.wrapper{
-    width:100%
+#SkillBox {
+    
+    font-family: 'Indie Flower', cursive;
+    width: 95%;
+    height: auto;
+    margin: 40px auto;
+    background-color: rgb(255, 255, 255);
+    //border: 1px solid #cdcdcd;
+    padding: 10px;
+    border-radius:20px;
 }
-.img-banner{
-    display: none;
+
+.SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    background: rgba(54, 54, 54, 0.3);
+    margin: 20px auto;
+    border-radius: 20px;
+
 }
-.img-info h2{
-   padding: 30px 30px 20px;
-   font-family: arial;
-   font-size: 50px;
-   color:#111;
-   line-height: 44px;
+#Skill-HTML {
+    width: 100%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #F15625;
+    border-radius: 20px;
 }
-.img-info p{
-    padding: 0px 30px 20px;
-    font-family:arial;
-    font-size: 16px;
-    color:#111;
-    line-height: 24px;
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
 }
+to {
+    width: 100%}
+}
+
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}#Skill-CSS {
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 95%;
+    height: 50px;
+    position: absolute;
+    background-color: #F15625;
+    border-radius: 20px;
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 95%}
+}
+}@-o-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}#Skill-jQuery {
+    animation: Animate-jQuery 5s;
+    -webkit-animation: Animate-jQuery 5s;
+    -moz-animation: Animate-jQuery 5s;
+    -o-animation: Animate-jQuery 5s;
+    width: 90%;
+    height: 50px;
+    position: absolute;
+    background-color:#F15625;
+    border-radius: 20px;
+}
+@keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}
+}@-o-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}#Skill-JS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 92%;
+    height: 50px;
+    position: absolute;
+    background-color: #F15625;
+    border-radius: 20px;
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 92%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}#Skill-XML {
+    animation: Animate-XML 4s;
+    -webkit-animation: Animate-XML 4s;
+    -moz-animation: Animate-XML 4s;
+    -o-animation: Animate-XML 4s;
+    width: 83%;
+    height: 50px;
+    position: absolute;
+    background-color:#F15625;
+    border-radius: 20px;
+}
+@keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 83%}
+}@-o-keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}#Skill-C {
+    animation: Animate-C 4s;
+    -webkit-animation: Animate-C 4s;
+    -moz-animation: Animate-C 4s;
+    -o-animation: Animate-C 4s;
+    width: 74%;
+    height: 50px;
+    position: absolute;
+    background-color:#F15625;
+    border-radius: 20px;
+}
+@keyframes Animate-C {
+    from {
+    width: 10px;
+}
+to {
+    width: 74%}
+}@-o-keyframes Animate-C {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}#Skill-JAVA {
+    animation: Animate-JAVA 4s;
+    -webkit-animation: Animate-JAVA 4s;
+    -moz-animation: Animate-JAVA 4s;
+    -o-animation: Animate-JAVA 4s;
+    width: 74%;
+    height: 50px;
+    position: absolute;
+    background-color: #F15625;
+    border-radius: 20px;
+}
+@keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 74%}
+}@-o-keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}#Skill-PHP {
+    animation: Animate-PHP 4s;
+    -webkit-animation: Animate-PHP 4s;
+    -moz-animation: Animate-PHP 4s;
+    -o-animation: Animate-PHP 4s;
+    width: 83%;
+    height: 50px;
+    position: absolute;
+    background-color:#F15625;
+    border-radius: 20px;
+}
+@keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width:83%}
+}@-o-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}.Skill-Area {
+    z-index: 1;
+    float: left;
+    //position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    //font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    //font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #main h4{
+    font-size: 160%;
+    }
+    section{
+    display: flex;
+    justify-content: center;
+  }
+  .prof-img{
+    display: inline;
+ }
+ .prof-text{
+    width: 80%;
+   margin: 0 auto;
+}
+.Profilimg{
+width: 80%;
+margin: 0 auto;
+}
+.Profilimg img{
+    width: 100%;
+}
+article{
+    margin-top: 4rem;
+}
+#EDUCATION{
+    display:flex;
+    display: inline; 
+    margin-bottom: 20px;
+    }
+    .chilEDUCAT{
+        margin: 0 auto;
+        width: 70%;  
+    }
+    
