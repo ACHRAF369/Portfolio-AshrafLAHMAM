@@ -29,16 +29,24 @@ body{
     font-size: 170%;
     margin-top: -5%;
 }
-
+.header-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 190%;
+    text-align: center;
+    height: 32px;
+    color: ivory;
+    
+}
 span{
     color: #E4315C;
 }
-#main .button{
+#main .button0{
     display: flex;
     justify-content: center;
     text-align: center;
     height: 8%;
-}
+} 
+
 button{
     width: 30%;
     border-radius: 10%;
@@ -65,15 +73,14 @@ button{
     font-size: 260%;
 }
 section{
-width: 100%;
+width: 88%;
 padding: 3rem;
 display: flex;
 justify-content: space-between;
 }
 .prof-img{
-   display: grid;
-   grid-template-columns: 40% 40%;
-   justify-content: space-between;
+   display: flex;
+   
 }
 .prof-text p{
     font-family:sans-serif;
@@ -156,9 +163,6 @@ font-family:sans-serif;
 #Skill-HTML {
     width: 100%;
     animation: Animate-HTML 4s;
-    -webkit-animation: Animate-HTML 4s;
-    -moz-animation: Animate-HTML 4s;
-    -o-animation: Animate-HTML 4s;
     height: 50px;
     position: absolute;
     background-color: #F15625;
@@ -168,21 +172,15 @@ font-family:sans-serif;
     from {
     width: 10px;
 }
-to {
-    width: 100%}
-}
+
 
 }@-o-keyframes Animate-HTML {
     from {
     width: 10px;
 }
-to {
-    width: 100%}
+
 }#Skill-CSS {
     animation: Animate-CSS 5s;
-    -webkit-animation: Animate-CSS 5s;
-    -moz-animation: Animate-CSS 5s;
-    -o-animation: Animate-CSS 5s;
     width: 95%;
     height: 50px;
     position: absolute;
@@ -200,13 +198,9 @@ to {
     from {
     width: 10px;
 }
-to {
-    width: 70%}
+
 }#Skill-jQuery {
     animation: Animate-jQuery 5s;
-    -webkit-animation: Animate-jQuery 5s;
-    -moz-animation: Animate-jQuery 5s;
-    -o-animation: Animate-jQuery 5s;
     width: 90%;
     height: 50px;
     position: absolute;
@@ -217,20 +211,14 @@ to {
     from {
     width: 10px;
 }
-to {
-    width: 90%}
-}
+
 }@-o-keyframes Animate-jQuery {
     from {
     width: 10px;
 }
-to {
-    width: 80%}
+
 }#Skill-JS {
     animation: Animate-JS 4s;
-    -webkit-animation: Animate-JS 4s;
-    -moz-animation: Animate-JS 4s;
-    -o-animation: Animate-JS 4s;
     width: 92%;
     height: 50px;
     position: absolute;
@@ -241,19 +229,14 @@ to {
     from {
     width: 10px;
 }
-to {
-    width: 92%}
+
 }@-o-keyframes Animate-JS {
     from {
     width: 10px;
 }
-to {
-    width: 65%}
+
 }#Skill-XML {
     animation: Animate-XML 4s;
-    -webkit-animation: Animate-XML 4s;
-    -moz-animation: Animate-XML 4s;
-    -o-animation: Animate-XML 4s;
     width: 83%;
     height: 50px;
     position: absolute;
@@ -264,19 +247,14 @@ to {
     from {
     width: 10px;
 }
-to {
-    width: 83%}
+
 }@-o-keyframes Animate-XML {
     from {
     width: 10px;
 }
-to {
-    width: 40%}
+
 }#Skill-C {
     animation: Animate-C 4s;
-    -webkit-animation: Animate-C 4s;
-    -moz-animation: Animate-C 4s;
-    -o-animation: Animate-C 4s;
     width: 74%;
     height: 50px;
     position: absolute;
@@ -287,19 +265,12 @@ to {
     from {
     width: 10px;
 }
-to {
-    width: 74%}
 }@-o-keyframes Animate-C {
     from {
     width: 10px;
 }
-to {
-    width: 30%}
 }#Skill-JAVA {
     animation: Animate-JAVA 4s;
-    -webkit-animation: Animate-JAVA 4s;
-    -moz-animation: Animate-JAVA 4s;
-    -o-animation: Animate-JAVA 4s;
     width: 74%;
     height: 50px;
     position: absolute;
@@ -310,19 +281,14 @@ to {
     from {
     width: 10px;
 }
-to {
-    width: 74%}
+
 }@-o-keyframes Animate-JAVA {
     from {
     width: 10px;
 }
-to {
-    width: 25%}
+
 }#Skill-PHP {
     animation: Animate-PHP 4s;
-    -webkit-animation: Animate-PHP 4s;
-    -moz-animation: Animate-PHP 4s;
-    -o-animation: Animate-PHP 4s;
     width: 83%;
     height: 50px;
     position: absolute;
@@ -333,14 +299,12 @@ to {
     from {
     width: 10px;
 }
-to {
-    width:83%}
+
 }@-o-keyframes Animate-PHP {
     from {
     width: 10px;
 }
-to {
-    width: 50%}
+
 }.Skill-Area {
     z-index: 1;
     float: left;
@@ -363,6 +327,143 @@ to {
     //font-family: Lato-Regular, sans-serif;
     font-size: 18px;
 }
+.conatct{
+    width: 100%;
+}
+.input1{
+    height: 2rem;
+    margin: 1rem;
+    width:16rem ;
+    text-align: center;
+    color:  rgb(204, 204, 204);
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.contact1{
+    display: flex;
+    justify-content: center;
+}
+.input2{
+height: 2rem;
+width:34.6rem ;
+text-align: center;
+color: rgb(204, 204, 204);
+border-radius: 4px;
+    border: 1px solid black;
+}
+.contact2{
+    display: flex;
+    justify-content: center;
+}
+.input3{
+    margin: 1rem;
+    width:34.6rem;
+    height: 14rem;
+    text-align:center;
+   color:  rgb(204, 204, 204);
+   border-radius: 4px;
+    border: 1px solid black;
+   
+}
+.button{
+    height: 3rem;
+    width: 35rem;
+    border: 0.5px solid rgb(173, 130, 130);
+    border-radius: 0.2rem;
+    background-color: tomato;
+    color:white;
+    font-size: 1rem;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+}
+.button:hover{
+    background-color:rgb(253, 63, 30);
+    height: 4rem;
+    width: 30.5rem;
+}
+.Icontact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.IC1{
+    height: 4rem;
+    margin: 1rem;
+    
+    
+}
+.IC1:hover{
+    height: 6rem;
+}
+footer{
+    background-color: rgb(10, 9, 9);
+    height: 20rem;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    }
+    .Ifooter{
+        border: 1px solid white;
+        margin: 1rem;
+        border-radius:2px;
+        height: 60px;
+    }
+    .Ifooter:hover{
+        height:70px;
+    }
+    footer h3{
+        color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    footer h3:hover{
+        font-size: 20px;
+    }
+    footer a{
+        text-decoration: none;
+        color: white; 
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+    }
+    footer a:hover{
+        font-size: 14px;
+    }
+    .footer{
+       display: flex;
+    }
+    .email{
+        font-size: 20px;
+        margin-top: 30px;
+        color: rgb(255, 71, 38);
+    }
+    .email:hover{
+        text-decoration:underline;
+    }
+    .footer2{
+        
+        width: 40%;
+    }
+    .footer2 h3{
+        font-size: 40px;
+    }
+    .footer2 P{
+        font-family: fantasy;
+        color: lightgrey;
+    }
+    .Cimgfoot{
+        height: 40px;
+       display: flex;
+       display: inline;
+       margin: 13px;
+    }
+    .About-the-C:hover{
+        font-size: 40px;
+    }
+
+
+
 
 
 @media only screen and (max-width: 768px) {
@@ -375,6 +476,7 @@ to {
   }
   .prof-img{
     display: inline;
+  
  }
  .prof-text{
     width: 80%;
@@ -399,4 +501,13 @@ article{
         margin: 0 auto;
         width: 70%;  
     }
-    
+    .header-text{
+        font-size: 25px;
+        height: 100px;
+    }
+    .fotter{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    }
