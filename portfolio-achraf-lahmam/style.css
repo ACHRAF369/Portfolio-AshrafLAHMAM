@@ -525,4 +525,9 @@ article{
        .Cimgfoot{
            height: 32px;
        }
-       @media only screen and (max-width:375px)
+       @media only screen and (max-width:375px){
+       .child1{
+           display: none;
+       }
+      
+    }
