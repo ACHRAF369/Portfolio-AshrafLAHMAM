@@ -15,7 +15,6 @@ body{
     background-size: cover; 
 }
  .child1 {
-    padding:%;
     color: beige;
     display: flex;
     display: inline;
@@ -80,6 +79,7 @@ justify-content: space-between;
 }
 .prof-img{
    display: flex;
+   
    
 }
 .prof-text p{
@@ -146,7 +146,7 @@ font-family:sans-serif;
     height: auto;
     margin: 40px auto;
     background-color: rgb(255, 255, 255);
-    //border: 1px solid #cdcdcd;
+  
     padding: 10px;
     border-radius:20px;
 }
@@ -191,9 +191,7 @@ font-family:sans-serif;
     from {
     width: 10px;
 }
-to {
-    width: 95%}
-}
+
 }@-o-keyframes Animate-CSS {
     from {
     width: 10px;
@@ -306,14 +304,14 @@ to {
 }
 
 }.Skill-Area {
-    z-index: 1;
+     
     float: left;
-    //position: absolute;
+  
     margin-top: 15px;
     margin-left: 15px;
-    text-shadow: none;
+    
     color: #fff;
-    //font-family: Lato-Regular, sans-serif;
+
     font-size: 18px;
 }
 .PercentText {
@@ -383,10 +381,11 @@ border-radius: 4px;
     width: 30.5rem;
 }
 .Icontact{
-    width: 90%;
+    width: 70%;
     display: flex;
     justify-content: center;
-    margin: 1rem;
+    margin: 0 auto;
+   
 }
 .IC1{
     height: 4rem;
@@ -431,6 +430,7 @@ footer{
     }
     .footer{
        display: flex;
+       
     }
     .email{
         font-size: 20px;
@@ -441,7 +441,6 @@ footer{
         text-decoration:underline;
     }
     .footer2{
-        
         width: 40%;
     }
     .footer2 h3{
@@ -515,8 +514,7 @@ article{
 
        }
        .email{
-           font-size: 13px;
-          
+           font-size: 13px; 
        }
        .footer2 h3{
            font-size: 20px;
@@ -526,5 +524,5 @@ article{
        }
        .Cimgfoot{
            height: 32px;
-          
        }
+       @media only screen and (max-width:375px)
