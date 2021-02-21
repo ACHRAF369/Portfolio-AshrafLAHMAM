@@ -322,9 +322,8 @@ to {
     padding-right: 15px;
     margin-top: 15px;
     float: right;
-    text-shadow: none;
     color: #fff;
-    //font-family: Lato-Regular, sans-serif;
+    
     font-size: 18px;
 }
 .conatct{
@@ -384,7 +383,7 @@ border-radius: 4px;
     width: 30.5rem;
 }
 .Icontact{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     margin: 1rem;
@@ -511,3 +510,21 @@ article{
     left: 0;
     width: 100%;
     }
+    .Ifooter{
+        height: 50px;
+
+       }
+       .email{
+           font-size: 13px;
+          
+       }
+       .footer2 h3{
+           font-size: 20px;
+       }
+       .footer2 P{
+           font-size: 12px;
+       }
+       .Cimgfoot{
+           height: 32px;
+          
+       }
